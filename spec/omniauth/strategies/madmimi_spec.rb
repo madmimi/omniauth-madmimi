@@ -16,7 +16,7 @@ describe OmniAuth::Strategies::Madmimi do
     end
 
     it 'should have correct site' do
-      subject.options.client_options.site.should eq('http://localhost:3001')
+      subject.options.client_options.site.should eq('http://localhost:3000')
     end
   end
 

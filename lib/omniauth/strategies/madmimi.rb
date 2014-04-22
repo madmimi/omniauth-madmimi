@@ -6,7 +6,7 @@ module OmniAuth
       option :name, "madmimi"
 
       option :client_options, {
-        site: "http://localhost:3001"
+        site: "http://localhost:3000"
       }
 
       uid { raw_info["id"] }
