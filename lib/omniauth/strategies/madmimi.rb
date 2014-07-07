@@ -5,7 +5,7 @@ module OmniAuth
     class Madmimi < OmniAuth::Strategies::OAuth2
       option :name, "madmimi"
 
-      option :client_options, { site: "http://localhost:3000" }
+      option :client_options, { site: "https://madmimi.com" }
 
       uid { raw_info["id"] }
 
