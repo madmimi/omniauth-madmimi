@@ -17,8 +17,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "omniauth-madmimi"
   gem.homepage = "http://github.com/sruli/omniauth-madmimi"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "An OmniAuth strategy for Mad Mimi authentication"
   gem.email = "srulirapps@gmail.com"
   gem.authors = ["Sruli"]
   # dependencies defined in Gemfile
