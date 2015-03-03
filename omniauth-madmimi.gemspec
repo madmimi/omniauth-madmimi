@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib"]
   s.authors = ["Sruli"]
-  s.date = "2014-04-22"
-  s.description = "TODO: longer description of your gem"
+  s.date = "2015-02-09"
   s.email = "srulirapps@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE",
@@ -26,14 +26,14 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/omniauth-madmimi.rb",
     "lib/omniauth/strategies/madmimi.rb",
+    "omniauth-madmimi.gemspec",
     "spec/omniauth/strategies/madmimi_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/sruli/omniauth-madmimi"
   s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = "2.1.11"
-  s.summary = "TODO: one-line summary of your gem"
+  s.rubygems_version = "2.2.2"
+  s.summary = "An OmniAuth strategy for Mad Mimi authentication"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
